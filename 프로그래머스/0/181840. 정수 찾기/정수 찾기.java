@@ -1,7 +1,7 @@
 class Solution {
     public int solution(int[] num_list, int n) {
-        for(int i = 0; i < num_list.length; i++) {
-            if(n==num_list[i]) {
+        for(int num : num_list) {
+            if(n==num) {
                 return 1;
             }
         }
